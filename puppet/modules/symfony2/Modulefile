@@ -1,0 +1,8 @@
+name    'tuxone-symfony2'
+version '1.0.0'
+source '-'
+author 'Alessandro Loffredo'
+
+summary 'Configure Symfony2 app.'
+description 'nginx php2-fpm mysql'
+project_page '-'
