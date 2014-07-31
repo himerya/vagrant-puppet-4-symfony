@@ -4,7 +4,7 @@ class symfony2::setup {
     #
     # Vim for editing
     # ACL for setfacl command (cache e log dirs)
-    $default_packages = [ "vim", "acl", "php5-cli", "php5-curl", "php5-intl" ]
+    $default_packages = [ "vim", "acl", "php5-cli", "php5-curl", "php5-intl"]
     package { $default_packages :
         ensure => present,
     }
@@ -23,4 +23,5 @@ class symfony2::setup {
         ensure => present,
         provider => 'gem',
     }
+
 }
